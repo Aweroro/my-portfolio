@@ -1,5 +1,4 @@
-import './App.css';
-import React,{useState} from 'react';
+import React from 'react';
 import Header from './components/Header';
 import NavBar from './components/NavBar';
 import { Route, Routes } from 'react-router-dom';
@@ -9,12 +8,13 @@ import Contact from './routes/Contact/Contact';
 import Skills from './routes/Skills/Skills';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div className={`min-h-screen ${darkMode? 'dark bg-gray-900 text-white' : 'bg-white text-gray-900'}`}>
-      <Header darkMode={darkMode} setDarkMode={setDarkMode}/>
+    <div className={'min-h-screen dark bg-gray-900'}>
+      <div className='flex flex-row flex-grow items-center justify-between mx-7'>
+      <Header/>
       <NavBar/>
+      </div>
       <main className="container mx-auto px-4">
           <Routes>
             <Route path="/" element={<Home />} />
