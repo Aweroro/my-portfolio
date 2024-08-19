@@ -5,6 +5,7 @@ function NavBar() {
 
   const navItems = [
     { path: '/', name: 'Home' },
+    { path: '/about', name: 'About' },
     { path: '/projects', name: 'Projects' },
     { path: '/skills', name: 'Skills' },
     { path: '/contact', name: 'Contact' },
@@ -19,7 +20,8 @@ function NavBar() {
               <NavLink
                 to={item.path}
                 className={({ isActive }) =>
-                  `text-[#1e88e5] hover:text-blue-600 ${isActive ? 'font-bold text-blue-600 dark:text-blue-400' : ''}`}
+                  `text-[#1e88e5] hover:text-blue-600 
+                  ${isActive ? 'font-bold text-blue-600 dark:text-blue-400' : ''}`}
               >
                 {item.name}
               </NavLink>

@@ -6,11 +6,13 @@ import Home from './routes/Home/Home';
 import Projects from './routes/Projects/Projects';
 import Contact from './routes/Contact/Contact';
 import Skills from './routes/Skills/Skills';
+import About from './routes/About/About';
+import Footer from './components/Footer';
 
 function App() {
 
   return (
-    <div className={'min-h-screen dark bg-gray-900'}>
+    <div className={'min-h-screen dark bg-black'}>
       <div className='flex flex-row flex-grow items-center justify-between mx-7'>
       <Header/>
       <NavBar/>
@@ -21,8 +23,10 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </main>
+        <Footer/>
       </div>
   );
 }
