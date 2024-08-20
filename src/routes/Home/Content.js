@@ -1,6 +1,11 @@
 import React from 'react'
 import Card from '../../components/Card'
 import DownloadCard from '../../components/DownloadCard';
+import profile from '../../assets/profile.png';
+import project from '../../assets/project.png';
+import metrics from '../../assets/metrics.png';
+import chat from '../../assets/chat.png';
+import cv from '../../assets/cv.png';
 
 const Content = () => {
   return (
@@ -10,31 +15,31 @@ const Content = () => {
       title='About Me' 
       description='I am a frontend developer interested in bringing and creating beautiful and responsive web applications to life.' 
       link='/about'
-      imageURl='https://via.placeholder.com/400x200'
+      imageURl={profile}
       />
      </div>
       <Card 
       title='Showcase' 
       description='Checkout my projects' 
       link='/projects'
-      imageURl='https://via.placeholder.com/400x200'
+      imageURl={project}
       />
       <Card 
       title='Technologies' 
       description='More about my skills...' 
       link='/skills'
-      imageURl='https://via.placeholder.com/400x200'
+      imageURl={metrics}
       />
       <Card 
       title='Contact Me' 
       description='Reach out to me' 
       link='/contact'
-      imageURl='https://via.placeholder.com/400x200'
+      imageURl={chat}
       />
       <DownloadCard
       title='Download Resume'
       description='Click to download my resume'
-      imageURl='https://via.placeholder.com/400x200'
+      imageURl={cv}
       fileName='resume.pdf'
       fileUrl='/files/resume.pdf'/>
     </div>

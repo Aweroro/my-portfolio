@@ -14,7 +14,12 @@ const Card = ({ title, description, link, imageURl }) => {
       onClick={handleCardClick}
       className="relative cursor-pointer bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform hover:scale-105 hover:shadow-xl"
     >
-      <img src={imageURl} alt={title} className="w-full h-48 object-cover" />
+      <div className='relative flex justify-center w-full h-48 pt-4'>
+      <img 
+      src={imageURl} 
+      alt={title} 
+      className="h-full object-cover" />
+      </div>
       <div className="p-4">
         <h2 className="text-lg font-semibold mb-2">{title}</h2>
         <p className="text-gray-600">{description}</p>
