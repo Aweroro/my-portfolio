@@ -20,8 +20,8 @@ function NavBar() {
               <NavLink
                 to={item.path}
                 className={({ isActive }) =>
-                  `text-[#1e88e5] hover:text-blue-600 
-                  ${isActive ? 'font-bold text-blue-600 dark:text-blue-400' : ''}`}
+                  `${isActive ? 'text-white font-bold' : 'text-gray-500 hover:text-white'}`
+                }
               >
                 {item.name}
               </NavLink>

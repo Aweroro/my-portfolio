@@ -12,7 +12,7 @@ const Card = ({ title, description, link, imageURl }) => {
   return (
     <div
       onClick={handleCardClick}
-      className="relative cursor-pointer bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform hover:scale-105 hover:shadow-xl"
+      className="relative cursor-pointer bg-gray-800 rounded-lg shadow-lg overflow-hidden transform transition-transform hover:scale-105 hover:shadow-xl"
     >
       <div className='relative flex justify-center w-full h-48 pt-4'>
       <img 
@@ -21,10 +21,10 @@ const Card = ({ title, description, link, imageURl }) => {
       className="h-full object-cover" />
       </div>
       <div className="p-4">
-        <h2 className="text-lg font-semibold mb-2">{title}</h2>
-        <p className="text-gray-600">{description}</p>
+        <h2 className="text-lg text-[#2962ff] font-semibold mb-2">{title}</h2>
+        <p className="text-white">{description}</p>
       </div>
-      <div className='absolute bottom-4 right-4 bg-blue-500 text-white p-2 rounded-full'>
+      <div className='absolute bottom-4 right-4 bg-[#2962ff] text-white p-2 rounded-full'>
         <PlusCircleIcon/>
       </div>
     </div>
