@@ -17,15 +17,15 @@ const About = () => {
       <div className="mt-8">
         <h2 className="text-2xl text-[#2962ff] font-semibold mb-4">Technologies</h2>
         <div className="flex flex-wrap gap-6">
-          <span className="bg-gray-200 border overflow-hidden transform transition-transform hover:scale-125 hover:shadow-2xl hover:border-[#2962ff] text-gray-800 py-1 px-3 rounded-full">React</span>
-          <span className="bg-gray-200 border overflow-hidden transform transition-transform hover:scale-125 hover:shadow-2xl hover:border-[#2962ff] text-gray-800 py-1 px-3 rounded-full">Tailwind CSS</span>
-          <span className="bg-gray-200 border overflow-hidden transform transition-transform hover:scale-125 hover:shadow-2xl hover:border-[#2962ff] text-gray-800 py-1 px-3 rounded-full">JavaScript</span>
-          <span className="bg-gray-200 border overflow-hidden transform transition-transform hover:scale-125 hover:shadow-2xl hover:border-[#2962ff] text-gray-800 py-1 px-3 rounded-full">TypeScript</span>
-          <span className="bg-gray-200 border overflow-hidden transform transition-transform hover:scale-125 hover:shadow-2xl hover:border-[#2962ff] text-gray-800 py-1 px-3 rounded-full">Dart</span>
-          <span className="bg-gray-200 border overflow-hidden transform transition-transform hover:scale-125 hover:shadow-2xl hover:border-[#2962ff] text-gray-800 py-1 px-3 rounded-full">Flutter</span>
-          <span className="bg-gray-200 border overflow-hidden transform transition-transform hover:scale-125 hover:shadow-2xl hover:border-[#2962ff] text-gray-800 py-1 px-3 rounded-full">Git</span>
-          <span className="bg-gray-200 border overflow-hidden transform transition-transform hover:scale-125 hover:shadow-2xl hover:border-[#2962ff] text-gray-800 py-1 px-3 rounded-full">Github</span>
-          <span className="bg-gray-200 border overflow-hidden transform transition-transform hover:scale-125 hover:shadow-2xl hover:border-[#2962ff] text-gray-800 py-1 px-3 rounded-full">Next.js</span>
+          <span className="bg-gray-200 border overflow-hidden transform transition-transform hover:scale-125 hover:shadow-2xl hover:border-[#2962ff] hover:font-bold text-gray-800 py-1 px-3 rounded-full">React</span>
+          <span className="bg-gray-200 border overflow-hidden transform transition-transform hover:scale-125 hover:shadow-2xl hover:border-[#2962ff] hover:font-bold text-gray-800 py-1 px-3 rounded-full">Tailwind CSS</span>
+          <span className="bg-gray-200 border overflow-hidden transform transition-transform hover:scale-125 hover:shadow-2xl hover:border-[#2962ff] hover:font-bold text-gray-800 py-1 px-3 rounded-full">JavaScript</span>
+          <span className="bg-gray-200 border overflow-hidden transform transition-transform hover:scale-125 hover:shadow-2xl hover:border-[#2962ff] hover:font-bold text-gray-800 py-1 px-3 rounded-full">TypeScript</span>
+          <span className="bg-gray-200 border overflow-hidden transform transition-transform hover:scale-125 hover:shadow-2xl hover:border-[#2962ff] hover:font-bold text-gray-800 py-1 px-3 rounded-full">Dart</span>
+          <span className="bg-gray-200 border overflow-hidden transform transition-transform hover:scale-125 hover:shadow-2xl hover:border-[#2962ff] hover:font-bold text-gray-800 py-1 px-3 rounded-full">Flutter</span>
+          <span className="bg-gray-200 border overflow-hidden transform transition-transform hover:scale-125 hover:shadow-2xl hover:border-[#2962ff] hover:font-bold text-gray-800 py-1 px-3 rounded-full">Git</span>
+          <span className="bg-gray-200 border overflow-hidden transform transition-transform hover:scale-125 hover:shadow-2xl hover:border-[#2962ff] hover:font-bold text-gray-800 py-1 px-3 rounded-full">Github</span>
+          <span className="bg-gray-200 border overflow-hidden transform transition-transform hover:scale-125 hover:shadow-2xl hover:border-[#2962ff] hover:font-bold text-gray-800 py-1 px-3 rounded-full">Next.js</span>
         </div>
       </div>
       <div className="mt-8">

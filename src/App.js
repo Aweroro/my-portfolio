@@ -13,11 +13,11 @@ function App() {
 
   return (
     <div className={'min-h-screen dark bg-black'}>
-      <div className='flex flex-row flex-grow items-center justify-between mx-7'>
+      <div className='flex flex-row flex-grow items-center justify-between h-5'>
       <Header/>
       <NavBar/>
       </div>
-      <main className="container mx-auto px-4">
+      <main className="container mx-auto mt-12 px-4">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />

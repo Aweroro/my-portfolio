@@ -2,7 +2,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 function NavBar() {
-
   const navItems = [
     { path: '/', name: 'Home' },
     { path: '/about', name: 'About' },
@@ -12,7 +11,7 @@ function NavBar() {
   ];
 
   return (
-    <nav className="py-4 sticky top-0 z-10">
+    <nav className="py-4 fixed top-0 right-0 md:right-7 z-10">
       <div className="container mx-auto px-4">
         <ul className="flex space-x-6 justify-center">
           {navItems.map((item) => (
@@ -34,3 +33,4 @@ function NavBar() {
 }
 
 export default NavBar;
+
