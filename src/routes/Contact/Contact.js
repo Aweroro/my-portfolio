@@ -1,9 +1,6 @@
 import React from 'react'
-//import LocationIcon from '../../assets/location-icon';
-//import PhoneIcon from '../../assets/phone-icon';
-//import MailIcon from '../../assets/mail-icon'
 import { FaTwitter, FaGithub, FaInstagram } from 'react-icons/fa';
-import { PhoneIcon, EnvelopeIcon, MapIcon } from '@heroicons/react/16/solid';
+import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/solid';
 
 const Contact = () => {
   return (
@@ -14,22 +11,22 @@ const Contact = () => {
         <div className="flex-1 mb-4">
           <ul className="space-y-12">
             <li className='flex space-x-2'>
-              <div className='flex space-x-2'>
-              <EnvelopeIcon className='size-12 rounded-lg px-2 bg-slate-900'/>
+              <div className='flex space-x-4 items-center'>
+              <EnvelopeIcon className='size-12 rounded-lg px-2 bg-slate-800'/>
               <a href="mailto:hadistic20@gmail.com" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">
                 hadistic20@gmail.com
               </a>
               </div>
             </li>
             <li className='flex space-x-2'>
-              <div className='flex space-x-2'>
-              <PhoneIcon className='size-12 rounded-lg px-2 bg-slate-900'/>
+              <div className='flex space-x-4 items-center'>
+              <PhoneIcon className='size-12 rounded-lg px-2 bg-slate-800'/>
               <p>08082742862</p>
               </div>
             </li>
             <li className='flex space-x-2'>
-              <div className='flex space-x-2'>
-              <MapIcon className='size-12 rounded-lg px-2 bg-slate-900'/>
+              <div className='flex space-x-4 items-center'>
+              <MapPinIcon className='size-12 rounded-lg px-2 bg-slate-800'/>
               <p>Lagos, Nigeria</p>
               </div>
             </li>
