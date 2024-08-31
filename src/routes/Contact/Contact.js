@@ -48,17 +48,17 @@ const Contact = () => {
           <h3 className="text-5xl text-[#2962ff] font-semibold mb-4">touch.</h3>
           </div>
           <form className="space-y-4 px-3">
-            <div>
-              <label htmlFor="name" className="block mb-1">Name</label>
-              <input type="text" id="name" name="name" className="w-full p-2 border rounded" required />
+            <div className='text-white'>
+              <input type="text" placeholder="Name" id="name" name="name" className="w-full p-2 border rounded border-gray-900 bg-gray-900 placeholder:text-gray-400 placeholder:font-bold " required />
             </div>
-            <div>
-              <label htmlFor="email" className="block mb-1">Email</label>
-              <input type="email" id="email" name="email" className="w-full p-2 border rounded" required />
+            <div className='text-white'>
+              <input type="email" placeholder="E-mail" id="email" name="email" className="w-full p-2 border rounded border-gray-900 bg-gray-900 placeholder:text-gray-400 placeholder:font-bold" required />
             </div>
-            <div>
-              <label htmlFor="message" className="block mb-1">Message</label>
-              <textarea id="message" name="message" rows="4" className="w-full p-2 border rounded" required></textarea>
+            <div className='text-white'>
+              <input type="text" placeholder="Subject" id="subject" name="subject" className="w-full p-2 border rounded border-gray-900 bg-gray-900 placeholder:text-gray-400 placeholder:font-bold" required />
+            </div>
+            <div className='text-white'>
+              <textarea id="message" placeholder="Message" name="message" rows="4" className="w-full p-2 border rounded border-gray-900 bg-gray-900 placeholder:text-gray-400 placeholder:font-bold" required></textarea>
             </div>
             <button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Send Message</button>
           </form>
