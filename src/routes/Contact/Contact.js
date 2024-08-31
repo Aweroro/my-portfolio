@@ -2,20 +2,20 @@ import React from 'react'
 import LocationIcon from '../../assets/location-icon';
 import PhoneIcon from '../../assets/phone-icon';
 import MailIcon from '../../assets/mail-icon'
+import { FaTwitter, FaGithub, FaInstagram } from 'react-icons/fa';
 
 const Contact = () => {
   return (
     <div className='py-10 text-white'>
-      <h2 className="text-2xl font-bold mb-8 uppercase">Contact Info</h2>
-      <div className="flex flex-col md:flex-row gap-8">
-        <div className="flex-1">
+      <h2 className="text-lg font-bold ml-24 mb-6 uppercase">Contact Info</h2>
+      <div className="flex flex-col md:flex-row mx-24 gap-x-48">
+        <div className='flex flex-col'>
+        <div className="flex-1 mb-4">
           {/* <h3 className="text-xl font-semibold mb-4">Get in touch</h3> */}
-          <ul className="space-y-5">
+          <ul className="space-y-12">
             <li className='flex space-x-2'>
-              <div className='flex border-gray-700'>
               <MailIcon/>
-              </div>
-              <a href="mailto:hadistic20@gmail.com" className="text-white hover:underline">
+              <a href="mailto:hadistic20@gmail.com" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">
                 hadistic20@gmail.com
               </a>
             </li>
@@ -29,9 +29,25 @@ const Contact = () => {
             </li>
           </ul>
         </div>
-        <div className="flex-1">
-          <h3 className="text-xl font-semibold mb-4">Or send a message</h3>
-          <form className="space-y-4">
+        <h2 className="text-lg font-bold mb-6 uppercase">Social Info</h2>
+        <div className="flex space-x-6 mb-24">
+            <a href="https://github.com/Aweroro" target="_blank" rel="noopener noreferrer" className="text-gray-100 hover:text-[#2962ff]">
+              <FaGithub size={36} />
+            </a>
+            <a href="https://x.com/AweroroH?t=Lf6w7L3b4jE1GLtG5Xuwow&s=09" target="_blank" rel="noopener noreferrer" className="text-gray-100 hover:text-[#2962ff]">
+              <FaTwitter size={36} />
+            </a>
+            <a href="https://www.instagram.com/the_real_hardee?igsh=ZnFuYmhvcHhqbndn" target="_blank" rel="noopener noreferrer" className="text-gray-100 hover:text-[#2962ff]">
+              <FaInstagram size={36} />
+            </a>
+        </div>
+        </div>
+        <div className="flex-1 border rounded-lg p-4">
+          <div className='flex gap-2'>
+          <h3 className="text-5xl font-semibold mb-4">Get in</h3>
+          <h3 className="text-5xl text-[#2962ff] font-semibold mb-4">touch.</h3>
+          </div>
+          <form className="space-y-4 px-3">
             <div>
               <label htmlFor="name" className="block mb-1">Name</label>
               <input type="text" id="name" name="name" className="w-full p-2 border rounded" required />
