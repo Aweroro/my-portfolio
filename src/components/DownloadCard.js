@@ -1,5 +1,5 @@
 import React from 'react';
-import PlusCircleIcon from '../assets/plus-circle';
+import PlusCircleIcon from '../assets/plus-circle-icon';
 
 const DownloadCard = ({ title, description, fileName, fileUrl, imageURl }) => {
   return (
@@ -19,7 +19,7 @@ const DownloadCard = ({ title, description, fileName, fileUrl, imageURl }) => {
      <div className='p-4 flex flex-col justify-between h-full'>
      <div className='mb-8'>
         <h2 className="text-lg text-[#2962ff] font-semibold mb-2">{title}</h2>
-        <p className="text-white text-justify break-words text-sm">{description}</p>
+        <p className="text-white text-justify break-words text-base">{description}</p>
       </div>
      <div className='self-end mt-4'>
      <div className="absolute bottom-4 right-4 bg-[#2962ff] text-white p-2 rounded-full">

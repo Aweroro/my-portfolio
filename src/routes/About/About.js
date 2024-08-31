@@ -1,7 +1,7 @@
 import React from 'react';
-import AcademicCapIcon from '../../assets/academic-cap';
-import BriefcaseIcon from '../../assets/briefcase';
-import CodeBracketIcon from '../../assets/code-bracket';
+import AcademicCapIcon from '../../assets/academic-cap-icon';
+import BriefcaseIcon from '../../assets/briefcase-icon';
+import CodeBracketIcon from '../../assets/code-bracket-icon';
 
 const About = () => {
   return (

@@ -13,7 +13,13 @@ const Content = () => {
      <div className='md:col-span-2 lg:col-span-2'>
      <Card 
       title='About Me' 
-      description='I am a frontend developer interested in bringing and creating beautiful and responsive web applications to life.' 
+      description={
+      <>
+      {"I am a frontend developer interested in bringing and creating beautiful and responsive web applications to life."}
+      <br />
+      {"I love to work on creative and interesting projects."}
+      </>
+      }
       link='/about'
       imageURl={profile}
       />

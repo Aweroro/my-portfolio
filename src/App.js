@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className={'min-h-screen dark bg-black'}>
-      <div className='flex flex-row flex-grow items-center justify-between h-5'>
+      <div className='flex items-center justify-between h-5'>
       <Header/>
       <NavBar/>
       </div>

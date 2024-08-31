@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import PlusCircleIcon from '../assets/plus-circle.jsx';
+import PlusCircleIcon from '../assets/plus-circle-icon.jsx';
 
 const Card = ({ title, description, link, imageURl }) => {
   const navigate = useNavigate();
@@ -24,7 +24,7 @@ const Card = ({ title, description, link, imageURl }) => {
       <div className="p-4 flex flex-col justify-between h-full">
       <div className='mb-4'>
         <h2 className="text-lg text-[#2962ff] font-semibold mb-2">{title}</h2>
-        <p className="text-white text-sm text-justify break-words">{description}</p>
+        <p className="text-white text-base text-justify break-words whitespace-pre-line">{description}</p>
       </div>
      <div className='self-end mt-4'>
      <div className='absolute bottom-4 right-4 bg-[#2962ff] text-white p-2 rounded-full'>
