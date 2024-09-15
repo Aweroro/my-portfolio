@@ -4,11 +4,11 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/solid';
 
 const Contact = () => {
   return (
-    <div className='py-10 text-white'> 
-      <div className="flex flex-col-reverse md:flex-row mx-6 md:mx-24 gap-10 md:gap-x-48"> 
-        <div className='flex flex-col'>
+    <div className='py-12 text-white min-h-screen overflow-hidden'> 
+      <div className="flex flex-col-reverse md:flex-row mx-6 md:mx-auto md:gap-x-20 md:w-full"> 
+        <div className='flex flex-row md:flex-col'>
           <div className="flex-1 mb-8">
-          <h2 className="text-lg font-bold ml-6 md:ml-24 mb-6 uppercase">Contact Info</h2>
+          <h2 className="text-lg font-bold mb-6 uppercase">Contact Info</h2>
             <ul className="space-y-6"> 
               <li className='flex space-x-4 items-center'>
                 <EnvelopeIcon className='w-8 h-8 p-1 md:w-12 md:h-12 md:p-2 rounded-lg bg-slate-800'/> 
@@ -27,7 +27,8 @@ const Contact = () => {
             </ul>
           </div>
 
-          <h2 className="text-lg font-bold mb-6 uppercase">Social Info</h2>
+        <div className='flex flex-1 flex-col'>
+        <h2 className="text-lg font-bold mb-6 uppercase">Social Info</h2>
           <div className="flex space-x-6 mb-12 md:mb-24">
             <a 
               href="https://github.com/Aweroro" 
@@ -52,8 +53,9 @@ const Contact = () => {
             </a>
           </div>
         </div>
+        </div>
         
-        <div className="flex-1 border rounded-lg p-4 md:p-6">
+        <div className="flex-1 border rounded-3xl p-6 md:p-8 sm:mb-6">
           <div className='flex gap-2 items-baseline'>
             <h3 className="text-4xl md:text-5xl font-semibold mb-4">Get in</h3> 
             <h3 className="text-4xl md:text-5xl text-[#2962ff] font-semibold mb-4">touch.</h3> 
